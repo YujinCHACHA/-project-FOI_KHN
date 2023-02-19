@@ -1,4 +1,4 @@
-# 국민영양조사 데이터분석
+# [KOR]국민영양조사 데이터분석
 
 ## 분석 주제
 "고혈압 여부 예측 모델의 정확도를 높이기 위한 가족력 데이터 보간용 결측치 예측 모델"
@@ -33,3 +33,37 @@
 - accuracy
 - mae
 
+# [ENG] Analysis of National Nutrition Survey Data
+
+## Analysis Topics
+"A missing value prediction model for interpolation of family history data to increase accuracy of the prediction model for hypertension"
+### 1. Necessity
+- Difficulty collecting health information survey data (expensive)
+- To create a model for predicting diseases (hypertension, diabetes, cardiovascular disease, atopic dermatitis) whose family history is the main factor.
+### 2.2. Necessity of disease prediction model
+- More than 100 so you can handle it more efficiently than people
+- To increase data utilization (disease data also has many missing values). expected knock-on effects)
+## Analysis Results
+- - ![image](https://user-images.githubusercontent.com/106477624/219936461-4d6f44b7-5055-46fd-a933-7735e6b0d20e.png)
+
+## Analysis process
+### 1. Data preprocessing
+- Missing Value Processing
+  - By: 
+- - ![image](https://user-images.githubusercontent.com/106477624/219936744-dabc3a99-217f-4839-b096-41dba408ce58.png)
+- Extract only required columns
+- - one-hot encoding
+- Normalization
+  - Normalize numeric data: 
+ - - ![image](https://user-images.githubusercontent.com/106477624/219936751-56459fa3-7b41-42f7-b449-16083d7837c6.png)
+  - Categorical data normalization: 
+ - - ![image](https://user-images.githubusercontent.com/106477624/219936764-43c29020-9530-4f68-93af-9a26c1807d04.png)
+### ### 2. EDA
+- Correlation coefficient analysis
+- - class imbalance 확인
+  - Results: 
+- - ![image](https://user-images.githubusercontent.com/106477624/219936778-7b324238-d070-4ac8-bbd4-845362d447c9.png)
+
+### 3. Modeling
+- - accuracy
+- - mae
