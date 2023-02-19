@@ -21,8 +21,7 @@
 - 정규화
   - 숫자형 데이터 정규화: 
  - ![image](https://user-images.githubusercontent.com/106477624/219936751-56459fa3-7b41-42f7-b449-16083d7837c6.png)
-  - 범주형 데이터 정규화: 
- - ![image](https://user-images.githubusercontent.com/106477624/219936764-43c29020-9530-4f68-93af-9a26c1807d04.png)
+  - 범주형 데이터 정규화
 ### 2. EDA
 - 상관계수 분석
 - class imbalance 확인
