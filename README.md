@@ -50,7 +50,7 @@
 ### 1. Data preprocessing
 - Missing Value Processing
   - By: 
-- - ![image](https://user-images.githubusercontent.com/106477624/219936744-dabc3a99-217f-4839-b096-41dba408ce58.png)
+- - ![image](https://user-images.githubusercontent.com/106477624/219937006-e707117d-fab1-44a2-bedb-c285461cad04.png)
 - Extract only required columns
 - - one-hot encoding
 - Normalization
